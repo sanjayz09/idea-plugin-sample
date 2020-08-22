@@ -1,0 +1,15 @@
+<idea-plugin version="2">
+    <id>com.sanjay.idea.plugin.sample</id>
+    <name>SamplePlugin</name>
+    <version>1.0.0</version>
+    <vendor email="sanjay.zsj09@gmail.com">sanjayz</vendor>
+    <description><![CDATA[A plugin sample.]]></description>
+    <change-notes><![CDATA[ ]]></change-notes>
+    <idea-version since-build="173.0" />
+    <actions>
+        <action class="com.sanjay.idea.plugin.sample.SampleAnAction" description="" id="sample"
+            text="MVP Class">
+            <add-to-group anchor="last" group-id="NewGroup" />
+        </action>
+    </actions>
+</idea-plugin>
